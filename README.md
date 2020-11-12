@@ -65,6 +65,8 @@ Tests: `npm run test` or `mocha test.js`.
 
 Liner: `npm run lint` or `eslint index.js`.
 
+Debug routes? Sure: `DEBUG=express-simplefile-router:* node server.js`
+
 # TODO
 
 - [ ] Imagine a simple way to handle REST arguments (`/user/123`)
