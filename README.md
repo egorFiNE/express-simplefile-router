@@ -44,6 +44,12 @@ Hello world
 
 # Documentation
 
+## Installation
+
+```bash
+npm install express-simplefile-router
+```
+
 ## `expressSimpleFileRouter()`
 
 Basically `expressSimpleFileRouter()` traverses a directory of files and mounts them as routes on an instance of [Express.router()](https://expressjs.com/en/4x/api.html#router). Simple as that.
