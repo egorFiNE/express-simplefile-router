@@ -73,13 +73,13 @@ describe('expressSimpleRouter test', function () {
   after(() => server.close());
 
   it('should properly answer GET (multiple handlers)', async () => {
-    const result = await request('http://localhost:1311/api/one/two/');
+    const result = await request('/api/one/two/');
     assert.strictEqual(result.statusCode, 200);
     assert.strictEqual(result.data, 'OK GET');
   });
 
   it('should NOT answer POST on a GET route', async () => {
-    const result = await request('http://localhost:1311/api/one/two/', { something: true });
+    const result = await request('/api/one/two/', { something: true });
     assert.strictEqual(result.statusCode, 404);
   });
 
