@@ -1,0 +1,31 @@
+{
+  "name": "express-simplefile-router",
+  "version": "0.0.1",
+  "description": "Transparent and simple file-based router for Express",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egorFiNE/express-simplefile-router.git"
+  },
+  "keywords": [
+    "express",
+    "router",
+    "route",
+    "middleware",
+    "connect"
+  ],
+  "author": "Egor Egorov <me@egorfine.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egorFiNE/express-simplefile-router/issues"
+  },
+  "homepage": "https://github.com/egorFiNE/express-simplefile-router#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mocha": "^8.2.1"
+  }
+}
